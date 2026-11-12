@@ -25,7 +25,7 @@ function showData(data, currentPage) {
         news = data.articles,
         $dataContainer = $("#Data .row");
     $dataContainer.html("");
-    if (news.length == 0) {
+    if (news.length > 0) {
         for (let item of news) {
             $dataContainer.append(cardComponents(item));
         }
@@ -33,7 +33,7 @@ function showData(data, currentPage) {
     } else {
         $dataContainer.html(
             `
-            <p class="position-fixed  bg-warning-subtle p-3 fs-5 w-75 d-flex justify-content-center align-items-center">
+            <p class="position-fixed noData bg-warning-subtle p-3 fs-5 w-75 d-flex justify-content-center align-items-center">
             There is
             No
             Data</p>

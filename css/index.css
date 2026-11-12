@@ -3,7 +3,7 @@ nav .pagination .paginate {
 }
 
 
-#Data p {
+#Data p.noData {
     top: 30%;
     left: 50%;
     transform: translate(-50%, 0%);
