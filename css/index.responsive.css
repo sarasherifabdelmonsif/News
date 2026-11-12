@@ -1,0 +1,35 @@
+@media (max-width: 1300px) {
+    #SC-Carousel>button {
+        display: none;
+    }
+
+    #Data p {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {}
+
+@media (min-width: 577px) and (max-width: 1300px) {}
+
+@media (min-width: 769px) and (max-width: 1300px) {}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    #SC-Carousel>button {
+        display: flex;
+    }
+
+    #Filter .btn {
+        font-size: 25px;
+    }
+
+    #Data p {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}
